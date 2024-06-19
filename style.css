@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    background-image: url(https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/06/10-Things-You-Should-Never-Miss-Out-on-a-Trip-to-Ladakh-Image-5.jpg) ; 
+    padding: 50px;
+    margin: auto;
+    vertical-align: middle;
+
+}
+.container h1,p{
+    text-align: center;
+
+}
+p{
+    font-size: 20px;
+}
+input,textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 8px;
+   
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color: rgb(18, 144, 211);
+    padding: 8px 12px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.SubmitMessage{
+    font-size: 30px;
+    color: cadetblue;
+}
